@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mad Lib</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	//variables
+	
+	var part1 = " the toilet, "
+	var part2 = "and the monkey was "
+
+
+	//variables 
+	var question1 = prompt("Give me a name")
+
+	console.log(question1);
+
+	var question2 = prompt("Give me an past tense verb")
+	console.log(question2);
+
+	var question3 = prompt("Give me an adjective")
+	console.log(question3);
+
+	document.write(question1 + " " + question2 + part1 + part2 + question3 + ".<p>");
+	console.log();
+
+	var sentence = (question1 + " " + question2 + part1 + part2 + question3 + ".<p>");
+	console.log(sentence);
+
+
+	var italic = sentence.italics();
+	document.write(italic);
+
+	var bold = sentence.bold();
+	document.write(bold);
+
+	var red = sentence.fontcolor('red');
+	document.write(red);
+
+	var allcaps = sentence.toUpperCase();
+	document.write(allcaps);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
